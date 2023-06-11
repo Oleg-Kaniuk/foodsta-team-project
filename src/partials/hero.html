@@ -1,0 +1,52 @@
+<section class="hero-section">
+    <div class="hero-div container">
+        <div class="hero-div-info">
+            <h1 class="main-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="section-text section-text-p">
+                With just a few clicks, you can have your favorite meals delivered
+                straight to your doorstep, no matter where you are. Order now and
+                enjoy a hassle-free and delicious meal from the comfort of your
+                own home.
+            </p>
+
+            <button class="modal-btn hero-btn" type="button">Order Now</button>
+        </div>
+        <!-- cлайдер -->
+        <div class="hero-div-img">
+            <ul class="list-img">
+                <li onclick="btm_slide(1)" class="">
+                    <div class="hero-div-img-one">
+                        <img class="hero-image item-slider-hero" src="./images/hero/hero.jpg" alt="error foto" />
+                    </div>
+                </li>
+
+                <li onclick="btm_slide(2)" class="">
+                    <div class="hero-div-img-two">
+                        <img class="hero-two-img item-slider-hero" src="./images/hero/hero-two.jpg" alt="error foto" />
+                    </div>
+                </li>
+
+                <li onclick="btm_slide(3)" class="">
+                    <div class="hero-div-img-three">
+                        <img class="hero-three-img item-slider-hero" src="./images/hero/hero-three.jpg"
+                            alt="error foto" />
+                    </div>
+                </li>
+            </ul>
+            <div class="sliders left" onclick="side_slide(-1)">
+                <button type="submit" class="button-left">
+                    <svg width="38" height="30">
+                        <use href="./images/foodsta-icons.svg#icon-arrow-right"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="sliders left" onclick="side_slide(1)">
+                <button type="button" class="button-right">
+                    <svg width="38" height="30">
+                        <use href="./images/foodsta-icons.svg#icon-arrow-left"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
