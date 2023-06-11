@@ -1,11 +1,11 @@
 {
-  "name": "vite-team-project",
+  "name": "foodsta-team-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-team-project/",
+    "build": "vite build --base=/foodsta-team-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
