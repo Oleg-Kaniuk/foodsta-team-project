@@ -1,0 +1,79 @@
+.subscribe-section {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -66px;
+  padding-bottom: 64px;
+  padding-top: 46px;
+}
+
+.subscribe-part {
+  flex-direction: column;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.subscribe-section-title {
+  width: 656px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subscribe-section-text {
+  width: 532px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.subscribe-modal-btn {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 22px;
+  padding-right: 22px;
+  min-width: 103px;
+  border: none;
+  background: var(--primary-accent-color);
+  transition: background-color var(--transition-dur-and-func);
+}
+
+.subscribe-modal-btn:hover,
+.subscribe-modal-btn:focus {
+  background-color: var(--secondary-accent-color);
+}
+
+.subscribe-image {
+  margin-top: -46px;
+  margin-left: -17px;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-form-input {
+  width: 395px;
+  height: 42px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0.854167px solid var(--secondary-accent-color);
+  border-radius: 30px;
+  margin-right: 32px;
+  padding-left: 11px;
+  padding-right: 57px;
+}
+
+.subscribe-form-input:focus {
+  outline: 0.854167px solid var(--secondary-accent-color);
+}
+
+.subscribe-form-input::placeholder {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--placeholder-color);
+}

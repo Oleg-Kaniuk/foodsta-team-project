@@ -1,0 +1,123 @@
+.hero-section {
+  padding: 14px 0;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-div {
+  display: flex;
+  align-items: center;
+}
+
+.hero-div-info {
+  width: 512px;
+  margin-right: 129px;
+}
+
+.main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.section-text-p {
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  background: var(--primary-accent-color);
+  padding: 6px 18px;
+  border: none;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--secondary-accent-color);
+}
+
+.hero-image {
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+}
+
+.hero-div-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 608px;
+}
+
+.hero-two-img {
+  top: 0;
+  left: 14px;
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+  width: 580px;
+}
+.hero-three-img {
+  top: 0;
+  left: 14px;
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+  width: 580px;
+}
+.hero-div-img-one {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 608px;
+}
+.hero-div-img-two,
+.hero-div-img-three {
+  display: flex;
+  justify-content: center;
+  width: 608px;
+}
+.button-left {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 48px;
+  height: 40px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #fefefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 0;
+}
+.button-right {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 48px;
+  height: 40px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #fefefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 0;
+}
+.button-right:focus,
+.button-right:hover,
+.button-left:focus,
+.button-left:hover {
+  fill: #7eb101;
+}
+
+.list-img {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+div.sim-slider-arrow-left:hover {
+  opacity: 1;
+}
+
+div.sim-slider-arrow-right:hover {
+  opacity: 1;
+}

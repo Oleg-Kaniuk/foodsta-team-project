@@ -1,0 +1,67 @@
+.modal-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.54;
+  border-radius: 30px;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 42px;
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.section-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+  color: var(--primary-text-color);
+}
+
+/* =============================================================================================
+================================================================================================
+================================================================================================ */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.section {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}

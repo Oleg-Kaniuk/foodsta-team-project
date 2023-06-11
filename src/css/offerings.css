@@ -1,0 +1,99 @@
+.offer-section {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: -161px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/offerings/offerings-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.offer-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 260px;
+}
+.offerings {
+  margin-left: 90px;
+}
+.aple-border {
+  margin-left: 16px;
+
+  position: relative;
+  bottom: 43px;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.offer-thumba {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding-bottom: 58px;
+  width: 502px;
+  height: 502px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.offer-image {
+  position: absolute;
+  bottom: 78px;
+  left: 60px;
+}
+.offer-subtitle {
+  max-width: 500px;
+}
+.offerings-list {
+  display: flex;
+  gap: 67px;
+  margin-top: 40px;
+
+  margin-bottom: 32px;
+}
+.offering-item {
+  width: 253px;
+}
+.offer-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.offer-icon {
+  fill: var(--secondary-text-color);
+}
+.offer-text {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.offer-button {
+  margin-bottom: 79px;
+  padding: 10px 22px;
+  min-width: 106px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.53;
+
+  border: 2px solid var(--secondary-text-color);
+  border-radius: 30px;
+  background-color: #ffffff;
+  transition: border var(--transition-dur-and-func),
+    background-color var(--transition-dur-and-func);
+}
+.offer-button:hover,
+.offer-button:focus {
+  border: 2px solid transparent;
+  background-color: var(--primary-accent-color);
+}

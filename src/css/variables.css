@@ -1,0 +1,15 @@
+:root {
+  --primary-text-color: #2c2c2c;
+  --secondary-text-color: #7eb101;
+  --primary-accent-color: #bbf330;
+  --secondary-accent-color: #ffe450;
+  --main-background-color: #fefefe;
+  --placeholder-color: #505050;
+  --primary-font: 'Roboto', sans-serif;
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--main-background-color);
+}

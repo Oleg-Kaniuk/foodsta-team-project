@@ -1,0 +1,109 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 99, 99, 0.7);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 458px;
+  min-height: 449px;
+
+  background-color: var(--secondary-accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+}
+.modal-close-btn-icon {
+  fill: var(--primary-text-color);
+}
+/* modal form */
+.modal-title {
+  margin-top: 32px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+
+  color: #2c2c2c;
+}
+.modal-form {
+  margin-left: 32px;
+  width: 394px;
+}
+.modal-input {
+  margin-top: 2px;
+  margin-bottom: 24px;
+  padding-left: 12px;
+  width: 100%;
+  height: 48px;
+  outline: transparent;
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+.modal-input:focus {
+  border: 1px solid #7eb101;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.modal-input::placeholder {
+  padding-top: 14px;
+  /* padding-left: 12px; */
+}
+.offer-button-submit {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  width: 106px;
+  height: 40px;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.offer-button-submit:hover,
+.offer-button-submit:focus {
+  background-color: var(--primary-accent-color);
+}
+.modal-lable {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.37;
+
+  color: var(--primary-text-color);
+}
